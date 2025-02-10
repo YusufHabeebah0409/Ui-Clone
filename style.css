@@ -6,12 +6,18 @@
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+header {
+    /* background: orange; */
+    height: 100vh;
 }
 
 /* Navigation */
 .container {
     max-width: 92%;
-    margin: 15px;
+    padding: 10px;
 }
 
 .navbar {
@@ -26,7 +32,7 @@ body {
     text-decoration: none;
     padding-left: 30px;
     color: #0f172a;
-    font-size: small;
+    font-size: bold;
 }
 
 .navbar li {
@@ -38,7 +44,7 @@ body {
     padding: 8px 18px;
     background: #0f172a;
     color: white;
-    font-size: 12px;
+    font-size: bold;
     border: none;
     border-radius: 15px;
     font-weight:lighter ;
@@ -51,7 +57,7 @@ body {
 
 /* Main  */
 .main-info{
-    background: pink;
+    /* background: pink; */
     max-width: 40%;
     padding: 10px 55px;
     margin: auto;
@@ -59,14 +65,14 @@ body {
 .main-info h2{
     color: #0f172a;
     text-align: center;
-    font-size: 47px;
+    font-size: 45px;
     font-weight: bold;
-    padding: 15px 0px;
+    padding: 5px 0px;
 }
 .main-info p{
     color: #0f172a;
     text-align: center;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: lighter;
     padding-bottom: 15px ;
 }
@@ -76,7 +82,7 @@ body {
     padding: 10px 20px;
     background: #0f172a;
     color: white;
-    font-size: 15px;
+    font-size: bold;
     border: none;
     border-radius: 18px;
     font-weight:lighter ;
@@ -90,7 +96,8 @@ body {
     margin-left: 30px;
     padding: 5px 20px;
     color:#0f172a;
-    font-size: 15px;
+    background: white;
+    font-size:15px;
     border: 1px solid lightgray;
     border-radius: 18px;
     font-weight:lighter ;
@@ -100,4 +107,12 @@ body {
     margin-right: 10px;
     width:17px;
     border-radius: 50%;
+}
+.main-bg{
+    overflow-x: hidden;
+}
+.main-bg img{
+    width: 100vw;
+    margin-top: -73px;
+   
 }
