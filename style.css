@@ -9,7 +9,6 @@ body{
 .container{
     max-width: 92%;
     margin: 10px;
-    background: pink;
 }
 .navbar{
     float: right;
