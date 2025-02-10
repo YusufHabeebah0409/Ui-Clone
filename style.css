@@ -1,41 +1,103 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.container{
+
+/* Navigation */
+.container {
     max-width: 92%;
-    margin: 15px ;
+    margin: 15px;
 }
-.navbar{
+
+.navbar {
     float: right;
 }
+
 .navbar ul {
     list-style: none;
 }
+
 .navbar ul a {
     text-decoration: none;
     padding-left: 30px;
     color: #0f172a;
     font-size: small;
-    font-weight: bold;
-
 }
+
 .navbar li {
     float: left;
 }
-.btn{
-    margin-left:30px ;
-    padding: 5px 18px;
+
+.btn {
+    margin-left: 30px;
+    padding: 8px 18px;
     background: #0f172a;
     color: white;
-    font-size: 13px;
+    font-size: 12px;
     border: none;
     border-radius: 15px;
-    font-weight: bold;
+    font-weight:lighter ;
+}
+.btn img {
+    float: right;
+    margin-left: 5px;
+    width:15px;
 }
 
-
+/* Main  */
+.main-info{
+    background: pink;
+    max-width: 40%;
+    padding: 10px 55px;
+    margin: auto;
+}
+.main-info h2{
+    color: #0f172a;
+    text-align: center;
+    font-size: 47px;
+    font-weight: bold;
+    padding: 15px 0px;
+}
+.main-info p{
+    color: #0f172a;
+    text-align: center;
+    font-size: 21px;
+    font-weight: lighter;
+    padding-bottom: 15px ;
+}
+.btn-1{  
+    margin-left:15%;
+    margin-left: 30px;
+    padding: 10px 20px;
+    background: #0f172a;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 18px;
+    font-weight:lighter ;
+}
+.btn-1 img {
+    float: right;
+    margin-left: 5px;
+    width:15px;
+}
+.btn-2{
+    margin-left: 30px;
+    padding: 5px 20px;
+    color:#0f172a;
+    font-size: 15px;
+    border: 1px solid lightgray;
+    border-radius: 18px;
+    font-weight:lighter ;
+}
+.btn-2 img {
+    float: left;
+    margin-right: 10px;
+    width:17px;
+    border-radius: 50%;
+}
