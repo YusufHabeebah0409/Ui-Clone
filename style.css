@@ -8,7 +8,7 @@ body{
 }
 .container{
     max-width: 92%;
-    margin: 10px;
+    margin: 15px ;
 }
 .navbar{
     float: right;
@@ -20,6 +20,8 @@ body{
     text-decoration: none;
     padding-left: 30px;
     color: #0f172a;
+    font-size: small;
+    font-weight: bold;
 
 }
 .navbar li {
@@ -27,6 +29,13 @@ body{
 }
 .btn{
     margin-left:30px ;
+    padding: 5px 18px;
+    background: #0f172a;
+    color: white;
+    font-size: 13px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
 }
 
 
