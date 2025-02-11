@@ -8,6 +8,9 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+.clr{
+    clear: both;
+}
 
 header {
     /* background: orange; */
@@ -99,7 +102,7 @@ header {
 }
 
 .btn-2 {
-    margin-left: 30px;
+    margin-left:30px;
     padding: 5px 20px;
     color: #0f172a;
     background: white;
@@ -124,4 +127,106 @@ header {
     width: 100vw;
     margin-top: -73px;
 
+}
+@media(max-width:768px){
+    *{
+        box-sizing: border-box;
+    }
+    .clr{
+        clear: both;
+    }
+    
+    header {
+        /* background: orange; */
+        height: 100vh;
+    }
+    
+    /* Navigation */
+    .container {
+        max-width: 92%;
+        padding: 10px;
+    }
+    
+    .navbar ul a {
+        display: none;
+    }
+    
+    .navbar li {
+        float: left;
+    }
+    
+    .btn {
+        margin-left: 30px;
+        padding: 8px 18px;
+        background: #0f172a;
+        color: white;
+        font-size: bold;
+        border: none;
+        border-radius: 15px;
+        font-weight: lighter;
+    }
+    
+    .btn img {
+        float: right;
+        margin-left: 5px;
+        width: 15px;
+    }
+    
+    /* Main  */
+    .main-info {
+        background: pink;
+        max-width: 47%;
+        height: 50vh;
+        padding: 10px 20px;
+        margin: auto;
+    }
+    
+    .main-info h2 {
+        color: #0f172a;
+        text-align: center;
+        font-size: 35px;
+        font-weight: bolder;
+        padding: 5px 0px;
+    }
+    
+    .main-info p {
+        color: #0f172a;
+        text-align: center;
+        font-size: 15px;
+        font-weight: lighter;
+        padding-bottom: 15px;
+    }
+    .btn-1 {
+        margin-left: 3px;
+        padding: 5px 10px;
+        background: #0f172a;
+        color: white;
+        font-size: bold;
+        border: none;
+        border-radius: 12px;
+    }
+    
+    .btn-1 img {
+        float: right;
+        margin-left: 5px;
+        width: 15px;
+    }
+    
+    .btn-2 {
+        margin-left: 135px;
+        padding: 7px ;
+        color: #0f172a;
+        background: white;
+         border: 1px solid lightgray;
+        border-radius: 12px;
+    }
+    
+    .btn-2 img {
+        display: none;
+    }
+    
+    .main-bg img {
+        width: 100vw;
+       margin: 10px;
+    }
 }
