@@ -140,7 +140,7 @@ header {
     }
 
     header {
-        background: orange;
+        /* background: orange; */
         height: 100vh;
     }
 
@@ -161,7 +161,7 @@ header {
 
     /* Main  */
     .main-info {
-        background: pink;
+        /* background: pink; */
         max-width: 70%;
         height: 30vh;
         padding: 20px;
