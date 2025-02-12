@@ -128,7 +128,7 @@ header {
     margin-top: -73px;
 
 }
-@media(max-width:768px){
+@media(max-width:500px){
     *{
         box-sizing: border-box;
     }
@@ -137,7 +137,7 @@ header {
     }
     
     header {
-        /* background: orange; */
+        background: orange;
         height: 100vh;
     }
     
