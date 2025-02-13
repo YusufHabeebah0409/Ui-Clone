@@ -56,7 +56,16 @@
 
             <!-- Main Image  -->
             <div class="main-bg">
-                <img src="./BG.png" alt="friends ">
+                <!-- <img src="./BG.png" alt="friends "> -->
+                <picture>
+                    <source srcset="./BG.png" media="(max-width: 500px)">
+                    <source srcset="./BG.png" media="(max-width: 768px)">
+                    <source srcset="./BG.png" media="(min-width: 1201px)">
+                    <img src="./BG.png" alt="A responsive image">
+                </picture>
+
+
+
             </div>
         </section>
     </header>
