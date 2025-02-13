@@ -296,7 +296,7 @@ header {
     }
 
     header {
-        /* background: orange; */
+        background: orange;
         height: 100vh;
     }
 
@@ -317,23 +317,22 @@ header {
 
     /* Main  */
     .main-info {
-        /* background: pink; */
-        max-width: 70%;
-        height: 30vh;
+        background: pink;
+        max-width: 60%;
+        height: 40vh;
         padding: 20px;
         margin: auto;
     }
 
     .main-info h2 {
-        padding-top: 30px;
+        padding-top: 10px;
         padding-bottom: 15px;
-
-        font-size: 27px;
+        font-size: 20px;
     }
 
     .main-info p {
-        font-size: 15px;
-        padding-bottom: 22px;
+        font-size: 13px;
+        padding-bottom: 10px;
     }
 
     .btn-1 {
@@ -342,8 +341,8 @@ header {
 
     .btn-2 img {
         float: left;
-        margin-right: 5px;
-        width: 13px;
+        margin-right: 10px;
+        width: 15px;
     }
 
     .btn-2 {
@@ -362,5 +361,4 @@ header {
         width: 100vw;
         margin: 5px;
     }
-
 }
