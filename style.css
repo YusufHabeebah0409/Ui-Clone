@@ -286,6 +286,7 @@ header {
     }
 
 }
+
 @media(max-height:500px) {
     * {
         box-sizing: border-box;
@@ -360,6 +361,6 @@ header {
     .main-bg img {
         width: 100vw;
         /* margin: 5px; */
-       margin-top: -40px;
+        margin-top: -40px;
     }
 }
